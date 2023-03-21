@@ -35,7 +35,7 @@ const Navbar = () => {
           window.scrollTo(0, 0)
         }}>
           <img src={Logo} alt="Logo" className="object-contain" width={60}/>
-          <p className="text-white text-[18px] font-bold cursor-pointer  hover:opacity-75 duration-300">Tomás Quinteros <span className="sm:block hidden">Frontend Developer</span></p>
+          <p className="text-white text-[18px] font-bold cursor-pointer  hover:opacity-75 duration-300">Tomás Quinteros <span className="md:block hidden">Frontend Developer</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {
@@ -46,12 +46,13 @@ const Navbar = () => {
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img src={toggle ? Close : Menu} alt="Menu Mobile" className="w-[28px] h-[28px] object-contain cursor-pointer" onClick={() => setToggle(!toggle)}/>
-          <div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
-            <ul className="list-none flex-col justify-end items-start  gap-4">
+          <div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 w-full justify-center z-10 rounded-xl`}>
+            <ul className="list-none flex-col w-full justify-end items-start  gap-4">
               {
                 navLinks.map((link) => {
-                  return <li key={link.id} onClick={() => {setActive(link.title);
-                  setToggle(!toggle) }} className={`${active === link.title ? "text-white" : "text-secondary"} font-poppins font-medium cursor-pointer text-[16px]`}><a href={`#${link.id}`}>{link.title}</a></li>
+                  return <><li key={link.id} onClick={() => {setActive(link.title);
+                  setToggle(!toggle) }} className={`${active === link.title ? "text-white" : "text-secondary"} font-poppins py-2 font-medium cursor-pointer text-[20px]`}><a href={`#${link.id}`}>{link.title}</a></li>
+                  <hr /></>
                 })
               }
             </ul>
