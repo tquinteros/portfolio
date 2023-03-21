@@ -58,14 +58,6 @@ import {
       title: "React Native Developer",
       icon: mobile,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
   ];
   
   
