@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import TiltProps from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -8,14 +8,14 @@ import { SectionWrapper } from "../hoc"
 
 const ServiceCard = ({ index, title, icon }) => {
   return(
-    <Tilt className="xs:w-[250px] w-full">
+    <TiltProps className="xs:w-[250px] w-full">
       <motion.div className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card" variants={fadeIn("left", "spring", 0.5 * index, 0.75)}>
         <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col" options={{max: 45, scale: 1, speed: 450}}>
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
         </div>
       </motion.div>  
-    </Tilt>
+    </TiltProps>
   )
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import TiltProps from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt className="bg-tertiary p-5 rounded-2xl sm:w-[260px] w-full" options={{ max: 45, scale: 1, speed: 450 }}>
+      <TiltProps className="bg-tertiary p-5 rounded-2xl sm:w-[260px] w-full" options={{ max: 45, scale: 1, speed: 450 }}>
         <div className="relative w-full h-[230px]">
           <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -30,7 +30,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           }
         </div>  
 
-      </Tilt>
+      </TiltProps>
     </motion.div>
   )
 }
