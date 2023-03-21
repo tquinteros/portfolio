@@ -63,6 +63,29 @@ import {
   
   const projects = [
     {
+      
+      name: "GM Studios",
+      description:
+        "GMStudios is a digital art platform that shows a diverse collection of digital artworks and NFTs. With a keen focus on innovation and creativity, it features a wide range of projects, including digital paintings, animations, and more",
+        tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "materialui",
+          color: "green-text-gradient",
+        },
+        {
+          name: "styledcomponents",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
+    {
+      
       name: "Car Rent",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -102,27 +125,6 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
       source_code_link: "https://github.com/",
     },
     {
