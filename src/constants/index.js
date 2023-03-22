@@ -17,6 +17,9 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+
+  import undefinedba from "../assets/undefined.png"
+  import gmstudios from "../assets/gmstudios.png"
   
   const technologies = [
     {
@@ -68,44 +71,49 @@ import {
       description:
         "GMStudios is a digital art platform that shows a diverse collection of digital artworks and NFTs. With a keen focus on innovation and creativity, it features a wide range of projects, including digital paintings, animations, and more",
         tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "materialui",
-          color: "green-text-gradient",
-        },
-        {
-          name: "styledcomponents",
-          color: "pink-text-gradient",
-        },
+          {
+            name: "styledcomponents",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "materialui",
+            color: "green-text-gradient",
+          },
+          {
+            name: "nextjs",
+            color: "pink-text-gradient",
+          },
       ],
-      image: carrent,
+      image: gmstudios,
       source_code_link: "https://github.com/",
       link_preview: "https://gmstudios.gg"
     },
     {
       
-      name: "Car Rent",
+      name: "Undefined BA",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Undefined BA is an e-commerce project built with TiendaNube and enhanced with HTML, CSS, and JavaScript for an intuitive, visually appealing, and responsive shopping experience.",
         tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
+          name: "html",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "tiendanube",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: undefinedba,
       source_code_link: "https://github.com/",
+      link_preview: "https://undefinedba.com/"
     },
     {
       name: "Job IT",
@@ -127,6 +135,7 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
+      link_preview: "https://gmstudios.gg"
     },
     {
       name: "Trip Guide",
@@ -148,6 +157,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+      link_preview: "https://gmstudios.gg"
     },
   ];
   
