@@ -41,7 +41,7 @@ const ProjectCard = ({
           </div> */}
         </div>
         <div className="mt-5 ">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <a href={link_preview} target="_blank" rel="noreferrer" className="hover:underline duration-300 inline-block"><h3 className="text-white font-bold text-[24px]">{name}</h3></a>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
