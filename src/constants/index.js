@@ -116,20 +116,20 @@ import {
       link_preview: "https://undefinedba.com/"
     },
     {
-      name: "Job IT",
+      name: "In Progress",
       description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "In Progress.",
       tags: [
         {
-          name: "react",
+          name: "N/A",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "N/A",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "N/A",
           color: "pink-text-gradient",
         },
       ],
@@ -138,20 +138,20 @@ import {
       link_preview: "https://gmstudios.gg"
     },
     {
-      name: "Trip Guide",
+      name: "In Progress",
       description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "In Progress",
       tags: [
         {
-          name: "nextjs",
+          name: "N/A",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "N/A",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "N/A",
           color: "pink-text-gradient",
         },
       ],
